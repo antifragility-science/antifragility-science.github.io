@@ -1,24 +1,57 @@
 {% include base_path %}
 
+<style>
+  /* Standard: alle Menülinks normal */
+  #site-nav .visible-links .masthead__menu-item > a {
+    font-weight: 400 !important;
+  }
+
+  /* Nur der aktuelle Menüpunkt fett */
+  #site-nav .visible-links .masthead__menu-item.current > a {
+    font-weight: 700 !important;
+  }
+</style>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="greedy-nav" style="display: flex; justify-content: space-between; align-items: center;">
         <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+        
+        <!-- Logo und Titel links -->
+        <div style="display: flex; align-items: center;">
+          <a href="{{ base_path }}/" style="display: flex; align-items: center; text-decoration: none;">
+            {% if site.logo %}
+              <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" style="height: 40px; vertical-align: middle; margin-right: 10px;">
+            {% endif %}
+            <!-- Titel nicht mehr zwingend fett -->
+            <span style="font-size: 1.2em;">{{ site.title }}</span>
+          </a>
+        </div>
+        
+        <!-- Navigation rechts -->
+        <ul class="visible-links" style="display: flex; margin: 0; padding: 0; list-style: none; margin-left: auto;">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+
+            {% assign nav_url = link.url | relative_url %}
+            {% assign page_url = page.url | relative_url %}
+            {% assign is_current = false %}
+
+            {% if page_url == nav_url or page_url == nav_url | append: 'index.html' %}
+              {% assign is_current = true %}
+            {% endif %}
+
+            <li class="masthead__menu-item{% if is_current %} current{% endif %}">
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            </li>
           {% endfor %}
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
-          </li>
         </ul>
+        
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
