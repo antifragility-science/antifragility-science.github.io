@@ -202,5 +202,12 @@ defaults:
       share: true
 
 # Theme Settings
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 #minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
