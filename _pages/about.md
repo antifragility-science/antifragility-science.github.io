@@ -98,7 +98,7 @@ We are a very diverse group of researchers from different fields. Such an interd
   <div class="path-item">
     <div class="path-content">
       <div class="path-image">
-        <img src="/images/Home_2.jpg" alt="Path 1 illustration">
+        <img src="/images/home/Home_2.jpg" alt="Path 1 illustration">
       </div>
       <div class="path-text">
         <div class="path-title"><a href="/research/">Path 1</a></div>
@@ -110,7 +110,7 @@ We are a very diverse group of researchers from different fields. Such an interd
   <div class="path-item">
     <div class="path-content">
       <div class="path-image">
-        <img src="/images/Home_1.jpg" alt="Path 2 illustration">
+        <img src="/images/home/Home_1.jpg" alt="Path 2 illustration">
       </div>
       <div class="path-text">
         <div class="path-title"><a href="/research/">Path 2</a></div>
@@ -122,7 +122,7 @@ We are a very diverse group of researchers from different fields. Such an interd
   <div class="path-item">
     <div class="path-content">
       <div class="path-image">
-        <img src="/images/Home_4.jpg" alt="Path 3 illustration">
+        <img src="/images/home/Home_4.jpg" alt="Path 3 illustration">
       </div>
       <div class="path-text">
         <div class="path-title"><a href="/research/">Path 3</a></div>
@@ -134,7 +134,7 @@ We are a very diverse group of researchers from different fields. Such an interd
   <div class="path-item">
     <div class="path-content">
       <div class="path-image">
-        <img src="/images/Home_3.jpg" alt="Path 4 illustration">
+        <img src="/images/home/Home_3.jpg" alt="Path 4 illustration">
       </div>
       <div class="path-text">
         <div class="path-title"><a href="/research/">Path 4</a></div>

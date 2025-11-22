@@ -105,7 +105,7 @@ author_profile: false
   <!-- Natural Systems -->
   <div class="book-card">
     <img class="book-cover-img"
-         src="/images/publications_2.jpg"
+         src="/images/publications/publications_2.jpg"
          alt="Applied Antifragility in Natural Systems – book cover">
 
     <h2 class="book-info-title">Applied Antifragility in Natural Systems</h2>
@@ -132,7 +132,7 @@ author_profile: false
   <!-- Technical Systems -->
   <div class="book-card">
     <img class="book-cover-img"
-         src="/images/publications_1.jpg"
+         src="/images/publications/publications_1.jpg"
          alt="Applied Antifragility in Technical Systems – book cover">
 
     <h2 class="book-info-title">Applied Antifragility in Technical Systems</h2>

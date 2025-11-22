@@ -1,59 +1,17 @@
-<!-- Custom head snippets -->
+{% include base_path %}
 
-<!-- Fix für sofortiges Laden ohne Flackern -->
-<style>
-  /* Critical CSS - wird sofort geladen vor allem anderen */
-  html, body { 
-    background-color: #fff !important; 
-  }
-  
-  #main, .page, .page__content, .archive {
-    background-color: #fff !important;
-  }
-  
-  .masthead {
-    background-color: #fff !important;
-    border-bottom: 1px solid #f2f3f3;
-  }
-  
-  /* Hamburger Menü sofort verstecken */
-  .greedy-nav button {
-    display: none !important;
-  }
-  
-  .greedy-nav .hidden-links {
-    display: none !important;
-  }
-  
-  /* Navigation sofort sichtbar */
-  .greedy-nav .visible-links {
-    display: flex !important;
-    visibility: visible !important;
-  }
-  
-  /* Footer weiß */
-  .page__footer, footer {
-    background-color: #fff !important;
-  }
-  
-  /* Verhindere Animation beim Laden */
-  * {
-    -webkit-animation-duration: 0s !important;
-    animation-duration: 0s !important;
-    -webkit-animation-delay: 0s !important;
-    animation-delay: 0s !important;
-  }
-</style>
+<!-- start custom head snippets -->
 
-<!-- Favicon wenn vorhanden -->
-<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
+<!-- Support for Academicons -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- Meta Tags für bessere Performance -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
+<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
+<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
+<link rel="icon" href="/images/favicon.ico"/>
+<meta name="theme-color" content="#ffffff"/>
 
-<!-- DNS Prefetch für externe Ressourcen -->
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="dns-prefetch" href="//fonts.gstatic.com">
-<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+<!-- end custom head snippets -->

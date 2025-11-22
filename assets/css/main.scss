@@ -1,224 +1,49 @@
 ---
-# Only the front matter dashes are necessary
 ---
 
-@charset "utf-8";
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
 
-/* ==================================
-   STANDALONE CSS - Keine Theme Imports nötig!
-   ================================== */
-
-/* Reset & Base */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+ .masthead__logo {
+  height: 40px;        // oder was gut aussieht
+  margin-right: 0.5rem;
+  vertical-align: middle;
 }
 
-html {
-  font-size: 16px;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
+@import
+    "vendor/breakpoint/breakpoint",
 
-body {
-  background: #fff !important;
-  color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  line-height: 1.5;
-  min-height: 100vh;
-}
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-/* Container */
-.masthead__inner-wrap,
-.page__inner-wrap {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 1em;
-}
+    "include/mixins",
+    "vendor/susy/susy",
 
-/* Header / Masthead */
-.masthead {
-  background: #fff;
-  border-bottom: 1px solid #f2f3f3;
-  padding: 1em 0;
-  position: relative;
-  z-index: 20;
-}
+    "layout/reset",
+    "layout/base",
 
-.masthead__menu {
-  margin: 0;
-}
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
 
-/* Navigation */
-.greedy-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #fff;
-}
+    "layout/forms",
 
-.greedy-nav a {
-  color: #3d4144;
-  text-decoration: none;
-}
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
 
-.greedy-nav .site-logo {
-  margin-right: 1rem;
-}
-
-.greedy-nav .site-logo img {
-  max-height: 2rem;
-}
-
-.greedy-nav .site-title {
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin-right: auto;
-}
-
-/* Navigation Links */
-.greedy-nav .visible-links {
-  display: flex !important;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.greedy-nav .visible-links li {
-  margin-left: 1.5rem;
-}
-
-.greedy-nav .visible-links a {
-  padding: 0.5rem 0;
-  font-size: 0.95rem;
-}
-
-.greedy-nav .visible-links a:hover,
-.greedy-nav .visible-links a.active {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-/* Hide hamburger menu */
-.greedy-nav button,
-.greedy-nav .hidden-links {
-  display: none !important;
-}
-
-/* Main Content */
-#main {
-  background: #fff;
-  min-height: calc(100vh - 200px);
-  padding: 2em 0;
-}
-
-.page {
-  background: #fff;
-}
-
-.page__content {
-  background: #fff;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 1em;
-}
-
-.page__title {
-  margin-bottom: 2em;
-  font-size: 2em;
-  line-height: 1.2;
-  color: #3d4144;
-}
-
-/* Content Styling */
-.page__content h1 { 
-  font-size: 2em; 
-  margin-top: 2em; 
-  margin-bottom: 0.5em;
-}
-
-.page__content h2 { 
-  font-size: 1.5em; 
-  margin-top: 2em; 
-  margin-bottom: 0.5em;
-  padding-bottom: 0.3em;
-  border-bottom: 1px solid #f2f3f3;
-}
-
-.page__content h3 { 
-  font-size: 1.25em; 
-  margin-top: 1.5em; 
-  margin-bottom: 0.5em;
-}
-
-.page__content p {
-  margin-bottom: 1em;
-}
-
-.page__content ul,
-.page__content ol {
-  margin-left: 2em;
-  margin-bottom: 1em;
-}
-
-.page__content a {
-  color: #1976d2;
-  text-decoration: none;
-}
-
-.page__content a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
-.page__footer {
-  background: #fff !important;
-  color: #3d4144;
-  border-top: 1px solid #f2f3f3;
-  margin-top: 3em;
-  padding: 2em 0;
-  text-align: center;
-}
-
-footer {
-  background: #fff !important;
-}
-
-/* Archive pages */
-.archive {
-  background: #fff !important;
-}
-
-.archive__item {
-  margin-bottom: 2em;
-}
-
-.archive__item-title {
-  font-size: 1.25em;
-  margin-bottom: 0.25em;
-}
-
-/* Layouts */
-.layout--single,
-.layout--home,
-.layout--archive {
-  background: #fff !important;
-}
-
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .greedy-nav .visible-links li {
-    margin-left: 1rem;
-  }
-  
-  .page__content {
-    font-size: 0.95rem;
-  }
-}
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
+;

@@ -34,7 +34,7 @@ author_profile: false
 <h1 style="color: #ff0000; text-align: left; font-size: 30px; margin-bottom: 40px;">Fragility-Robustness-Resilience-Adaptiveness-Antifragility Spectrum</h1>
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/images/res_6.jpg" alt="Spectrum" style="max-width: 70%; height: auto;">
+  <img src="/images/research/res_6.jpg" alt="Spectrum" style="max-width: 70%; height: auto;">
 </div>
 
 ---
@@ -45,7 +45,7 @@ author_profile: false
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px; margin-bottom: 40px;">
   <div style="flex: 0 0 45%;">
-    <img src="/images/res_10.jpg" alt="Dose Response and Evolution" style="width: 100%;">
+    <img src="/images/research/res_10.jpg" alt="Dose Response and Evolution" style="width: 100%;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;color: #8a7a45;">Medicine</h3>
@@ -71,7 +71,7 @@ author_profile: false
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 40px;">
   <div style="flex: 0 0 45%;">
-    <img src="/images/res_5.jpg" alt="Dose Response" style="width: 100%;">
+    <img src="/images/research/res_5.jpg" alt="Dose Response" style="width: 100%;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;color: #8a7a45;">Finance</h3>
@@ -90,7 +90,7 @@ author_profile: false
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px; margin-bottom: 40px;">
   <div style="flex: 0 0 45%;">
-    <img src="/images/res_3.jpg" alt="Fragile vs Robust vs Antifragile" style="width: 100%;">
+    <img src="/images/research/res_3.jpg" alt="Fragile vs Robust vs Antifragile" style="width: 100%;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;color: #8a7a45;">Ecology</h3>
@@ -104,7 +104,7 @@ author_profile: false
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px; margin-bottom: 40px;">
   <div style="flex: 0 0 45%;">
-    <img src="/images/res_2.jpg" alt="Planetary Antifragility" style="width: 100%;">
+    <img src="/images/research/res_2.jpg" alt="Planetary Antifragility" style="width: 100%;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;color: #8a7a45;">Ecosystem physics</h3>
@@ -118,7 +118,7 @@ author_profile: false
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px; margin-bottom: 40px;">
   <div style="flex: 0 0 45%;">
-    <img src="/images/res_8.jpg" alt="Gut Microbiome" style="width: 100%;">
+    <img src="/images/research/res_8.jpg" alt="Gut Microbiome" style="width: 100%;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;color: #8a7a45;">Biology</h3>
@@ -132,7 +132,7 @@ author_profile: false
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px; margin-bottom: 40px;">
   <div style="flex: 0 0 45%;">
-    <img src="/images/res_1.jpg" alt="Cortical Development" style="width: 100%;">
+    <img src="/images/research/res_1.jpg" alt="Cortical Development" style="width: 100%;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;color: #8a7a45;">Neuroscience</h3>
@@ -152,7 +152,7 @@ author_profile: false
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px; margin-bottom: 40px;">
   <div style="flex: 0 0 45%;">
-    <img src="/images/res_9.jpg" alt="Robot Control" style="width: 100%;">
+    <img src="/images/research/res_9.jpg" alt="Robot Control" style="width: 100%;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;color: #8a7a45;">Robotics</h3>
@@ -166,7 +166,7 @@ author_profile: false
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px; margin-bottom: 40px;">
   <div style="flex: 0 0 45%;">
-    <img src="/images/res_4.jpg" alt="Medicine Drug Control" style="width: 100%;">
+    <img src="/images/research/res_4.jpg" alt="Medicine Drug Control" style="width: 100%;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;color: #8a7a45;">Medicine</h3>
@@ -180,7 +180,7 @@ author_profile: false
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px; margin-bottom: 40px;">
   <div style="flex: 0 0 45%;">
-    <img src="/images/res_7.jpg" alt="Traffic Flow" style="width: 100%;">
+    <img src="/images/research/res_7.jpg" alt="Traffic Flow" style="width: 100%;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;color: #8a7a45;">Transportation</h3>
@@ -200,7 +200,7 @@ author_profile: false
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px; margin-bottom: 40px;">
   <div style="flex: 0 0 45%;">
-    <img src="/images/res_11.jpg" alt="RL Traffic Control" style="width: 100%;">
+    <img src="/images/research/res_11.jpg" alt="RL Traffic Control" style="width: 100%;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;color: #8a7a45;">Transportation</h3>

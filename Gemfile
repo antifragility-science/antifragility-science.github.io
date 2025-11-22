@@ -11,7 +11,3 @@ end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
-
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-gem "minimal-mistakes-jekyll", "~> 4.27"

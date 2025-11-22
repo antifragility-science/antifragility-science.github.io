@@ -115,7 +115,7 @@ author_profile: false
   <div class="team-row">
     <div class="team-logo">
       <!-- TH Nürnberg logo -->
-      <img src="/images/team_3.jpg" alt="Technische Hochschule Nürnberg logo">
+      <img src="/images/team/team_3.jpg" alt="Technische Hochschule Nürnberg logo">
     </div>
     <div class="team-info">
       <h3><a href="https://www.th-nuernberg.de/en/person/axenie-cristian/" target="_blank">Cristian Axenie</a></h3>
@@ -128,7 +128,7 @@ author_profile: false
   <div class="team-row">
     <div class="team-logo">
       <!-- Isfahan University of Technology logo -->
-      <img src="/images/team_4.jpg" alt="Isfahan University of Technology logo">
+      <img src="/images/team/team_4.jpg" alt="Isfahan University of Technology logo">
     </div>
     <div class="team-info">
       <h3><a href="https://makbarzadeh.iut.ac.ir/" target="_blank">Meisam Akbarzadeh</a></h3>
@@ -141,7 +141,7 @@ author_profile: false
   <div class="team-row">
     <div class="team-logo">
       <!-- ETH Zürich logo -->
-      <img src="/images/team_2.jpg" alt="ETH Zürich logo">
+      <img src="/images/team/team_2.jpg" alt="ETH Zürich logo">
     </div>
     <div class="team-info">
       <h3><a href="https://people.ee.ethz.ch/~mmakridi/" target="_blank">Michail A. Makridis</a></h3>
@@ -154,7 +154,7 @@ author_profile: false
   <div class="team-row">
     <div class="team-logo">
       <!-- Università di Trento logo -->
-      <img src="/images/team_6.jpg" alt="Università di Trento logo">
+      <img src="/images/team/team_6.jpg" alt="Università di Trento logo">
     </div>
     <div class="team-info">
       <h3><a href="https://webapps.unitn.it/du/it/Persona/PER0239650/Didattica" target="_blank">Matteo Saveriano</a></h3>
@@ -167,7 +167,7 @@ author_profile: false
   <div class="team-row">
     <div class="team-logo">
       <!-- University of Surrey logo -->
-      <img src="/images/team_8.jpg" alt="University of Surrey logo">
+      <img src="/images/team/team_8.jpg" alt="University of Surrey logo">
     </div>
     <div class="team-info">
       <h3><a href="https://www.surrey.ac.uk/people/roman-bauer" target="_blank">Roman Bauer</a></h3>
@@ -180,7 +180,7 @@ author_profile: false
   <div class="team-row">
     <div class="team-logo">
       <!-- PMF / network logo -->
-      <img src="/images/team_9.jpg" alt="PMF network logo">
+      <img src="/images/team/team_9.jpg" alt="PMF network logo">
     </div>
     <div class="team-info">
       <h3><a href="https://www.lopezoliver.otrasenda.org/" target="_blank">Oliver López Corona</a></h3>
@@ -193,7 +193,7 @@ author_profile: false
   <div class="team-row">
     <div class="team-logo">
       <!-- University of Split / PhotoCLIM logo -->
-      <img src="/images/team_1.jpg" alt="University of Split / PhotoCLIM logo">
+      <img src="/images/team/team_1.jpg" alt="University of Split / PhotoCLIM logo">
     </div>
     <div class="team-info">
       <h3><a href="https://www.photoclim.org/" target="_blank">Žarko Kovač</a></h3>
@@ -206,7 +206,7 @@ author_profile: false
   <div class="team-row">
     <div class="team-logo">
       <!-- University of Manchester logo -->
-      <img src="/images/team_5.jpg" alt="University of Manchester logo">
+      <img src="/images/team/team_5.jpg" alt="University of Manchester logo">
     </div>
     <div class="team-info">
       <h3><a href="https://www.eee.manchester.ac.uk/research/themes/robotics-for-extreme-environments/" target="_blank">Alexandru Stancu</a></h3>
@@ -219,7 +219,7 @@ author_profile: false
   <div class="team-row">
     <div class="team-logo">
       <!-- Moffitt Cancer Center logo -->
-      <img src="/images/team_7.jpg" alt="Moffitt Cancer Center logo">
+      <img src="/images/team/team_7.jpg" alt="Moffitt Cancer Center logo">
     </div>
     <div class="team-info">
       <h3><a href="https://www.moffitt.org/research-science/researchers/jeffrey-west/" target="_blank">Jeffrey West</a></h3>
