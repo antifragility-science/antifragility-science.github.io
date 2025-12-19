@@ -205,13 +205,13 @@ author_profile: false
   <!-- Alexandru Stancu -->
   <div class="team-row">
     <div class="team-logo">
-      <!-- University of Manchester logo -->
-      <img src="/images/team/team_5.jpg" alt="University of Manchester logo">
+      <!-- New Model Institute for Technology and Engineering logo -->
+      <img src="/images/team/team_5a.jpg" alt="New Model Institute for Technology and Engineering logo">
     </div>
     <div class="team-info">
-      <h3><a href="https://www.eee.manchester.ac.uk/research/themes/robotics-for-extreme-environments/" target="_blank">Alexandru Stancu</a></h3>
-      <p><strong>University of Manchester – Robotics for Extreme Environments</strong></p>
-      <p>Robotics, control in extreme environments, resilient and antifragile design.</p>
+      <h3><a href="https://nmite.ac.uk/" target="_blank">Alexandru Stancu</a></h3>
+      <p><strong>New Model Institute for Technology and Engineering (NMITE)</strong></p>
+      <p>Robotics, nonlinear control of autonomous systems, resilient and antifragile interval-based design.</p>
     </div>
   </div>
 
