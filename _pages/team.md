@@ -206,7 +206,7 @@ author_profile: false
   <div class="team-row">
     <div class="team-logo">
       <!-- New Model Institute for Technology and Engineering logo -->
-      <img src="/images/team/team_5a.jpg" alt="New Model Institute for Technology and Engineering logo">
+      <img src="/images/team/team_5a.png" alt="New Model Institute for Technology and Engineering logo">
     </div>
     <div class="team-info">
       <h3><a href="https://nmite.ac.uk/" target="_blank">Alexandru Stancu</a></h3>
