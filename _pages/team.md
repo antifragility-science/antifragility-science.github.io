@@ -222,7 +222,7 @@ author_profile: false
       <img src="/images/team/team_5b.png" alt="Manchester Robotics logo">
     </div>
     <div class="team-info">
-      <h3><a href="https://nmite.ac.uk/" target="_blank">Mario Martinez</a></h3>
+      <h3><a href="https://manchester-robotics.com/" target="_blank">Mario Martinez</a></h3>
       <p><strong>Manchester Robotics</strong></p>
       <p>Robotics, nonlinear control of autonomous systems, antifragile robotics.</p>
     </div>
