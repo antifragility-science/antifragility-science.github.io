@@ -120,7 +120,7 @@ author_profile: false
     <div class="team-info">
       <h3><a href="https://www.th-nuernberg.de/en/person/axenie-cristian/" target="_blank">Cristian Axenie</a></h3>
       <p><strong>Nuremberg Institute of Technology (Technische Hochschule Nürnberg)</strong></p>
-      <p>Applied antifragility in technical systems, machine learning, control engineering.</p>
+      <p>Applied antifragility in technical systems, neuromorphic engineering, and nonlinear control engineering.</p>
     </div>
   </div>
 
@@ -215,10 +215,23 @@ author_profile: false
     </div>
   </div>
 
+  <!-- Mario Martinez -->
+  <div class="team-row">
+    <div class="team-logo">
+      <!-- Manchester Robotics logo -->
+      <img src="/images/team/team_5b.png" alt="Manchester Robotics logo">
+    </div>
+    <div class="team-info">
+      <h3><a href="https://nmite.ac.uk/" target="_blank">Mario Martinez</a></h3>
+      <p><strong>Manchester Robotics</strong></p>
+      <p>Robotics, nonlinear control of autonomous systems, antifragile robotics.</p>
+    </div>
+  </div>
+
   <!-- Jeffrey West -->
   <div class="team-row">
     <div class="team-logo">
-      <!-- Moffitt Cancer Center logo -->
+      <!-- Moffitt Cancer Centre logo -->
       <img src="/images/team/team_7.jpg" alt="Moffitt Cancer Center logo">
     </div>
     <div class="team-info">
