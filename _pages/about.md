@@ -87,6 +87,11 @@ redirect_from:
 
 As coined in the book of [Nassim Taleb](https://www.fooledbyrandomness.com/), antifragility is a property of a system to gain from uncertainty, randomness, and volatility, opposite to what fragility would incur. An antifragile system's response to external perturbations is beyond robust, such that small stressors can strengthen the future response of the system by adding a strong anticipation component.
 
+[Research](https://antifragility-science.github.io/research/))
+[Publications](https://antifragility-science.github.io/publications/)
+[Team](https://antifragility-science.github.io/team/)
+[COST Action](https://antifragility-science.github.io/cost-action/)
+
 <h1 style="color: #ff0000; text-align: left; font-size: 35px; margin-top: 20px; margin-bottom: 30px;">Group Mission and Paths</h1>
 
 Our research group's mission is to build a foundational knowledge base by applying antifragile system design, analysis, and development across domains. We are interested in formalizing principles and an apparatus that turns the basic concept of antifragility into a tool for designing and building closed-loop systems that behave beyond robust in the face of uncertainty.
