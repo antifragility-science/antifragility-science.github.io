@@ -30,7 +30,7 @@ author_profile: false
 </style>
 
 <h1 style="color: #ff0000; text-align: left; font-size: 35px; margin-top: 20px; margin-bottom: 30px;">
-  COST Action 2025
+  European Cooperation in Science and Technology (COST) Action 
 </h1>
 
 <div style="margin-top: 10px; margin-bottom: 40px;">
